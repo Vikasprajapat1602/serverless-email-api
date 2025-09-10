@@ -35,6 +35,7 @@ Auth_task3/
 
 ## ⚙️ Setup Instructions
 ### 1. Clone Repository
+
 ```git clone https://github.com/Vikasprajapat1602/serverless-email-api.git```
 ```cd serverless-email-api```
 
