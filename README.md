@@ -23,3 +23,11 @@ It demonstrates how to create a REST API using the **Serverless Framework** that
 ---
 
 ## 📂 Project Structure
+Auth_task3/
+├─ email-service/
+│  ├─ handler.js
+│  ├─ serverless.yml
+│─ package.json
+│─ node_modules/
+│─ .gitignore
+
