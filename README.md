@@ -34,9 +34,50 @@ Auth_task3/
 ---
 
 ## ⚙️ Setup Instructions
-### 1. Clone Repository
+1. **Clone Repository**
 
-```git clone https://github.com/Vikasprajapat1602/serverless-email-api.git```
-```cd serverless-email-api```
+    ```
+   git clone https://github.com/Vikasprajapat1602/serverless-email-api.git
+   cd serverless-email-api
+   ```
+
+2. **Install Dependencies**
+
+    ```
+    npm install
+    ```
+
+3. **Run Locally**
+
+    ```
+    npx serverless offline
+    ```
+
+4. **Server will start on:**
+
+    ```
+    (http://localhost:3000)
+    ```
+
+---
+
+##🛠️ Testing API
+
+###Using Postman
+
+    ```
+    Open Postman → Create a new POST request.
+    
+    URL : http://localhost:3000/dev/send-email
+    
+    Go to Body → raw → JSON and paste:
+     {
+       "receiver_email": "Enter_Mail",
+       "subject": "Enter_Subject",
+       "body_text": "body_part"
+    }
+    
+    Send the request.
+    ```
 
 
