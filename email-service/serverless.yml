@@ -1,0 +1,19 @@
+service: email-service
+
+provider:
+  name: aws
+  runtime: nodejs18.x
+  timeout: 30
+  memorySize: 512
+
+plugins:
+  - serverless-offline
+
+functions:
+  sendEmail:
+    handler: handler.sendEmail
+    events:
+      - http:
+          path: send-email
+          method: post
+
