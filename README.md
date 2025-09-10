@@ -1,7 +1,6 @@
 # 📧 Serverless Email Service (Task 3)
-
-This project is part of the internship assignment.  
-It demonstrates how to create a REST API using the **Serverless Framework** that can send emails via **Nodemailer (Ethereal for testing)**.
+  
+It demonstrates how to create a REST API using the **Serverless Framework** that can send emails via **Nodemailer**.
 
 ---
 
